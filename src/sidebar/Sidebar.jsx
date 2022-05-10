@@ -4,9 +4,8 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
 			<div className="sidebarItem">
-				<span className="sidebarTitle">About me</span>
+				<span className="sidebarTitle">ABOUT ME</span>
 				<img
-					className="sidebarPortrait"
 					src="https://scontent.fyxd2-1.fna.fbcdn.net/v/t39.30808-6/258835570_5216188708398062_574361224942588809_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=AVZU-M4cBJcAX9Ckxal&_nc_oc=AQks2oJPCvQbL0QZRv0KV50URsBobFkcKHgTnUuWZ5ESAuvTxMCVkgL2BEqjdBxw_Yk&_nc_ht=scontent.fyxd2-1.fna&oh=00_AT9LRP3WVlmN6by75LD-Kib5Zsi4VrvROEwq-Hsxtpqd8A&oe=62803DC8"
 					alt="Nathan Drapeza portrait"
 				/>
