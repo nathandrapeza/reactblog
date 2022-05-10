@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Source
+
+This blog was created following the "React Blog Website Design Tutorial | React UI Full Course for Beginners" by Lama Dev (safak). Tutorial can be found at https://www.youtube.com/watch?v=tlTdbc5byAs, GitHub source code of original tutorial project can be found here at https://github.com/safak/youtube/tree/react-blog-ui.
+
 ## Available Scripts
 
 In the project directory, you can run:
