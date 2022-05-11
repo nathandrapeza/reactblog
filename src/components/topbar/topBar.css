@@ -12,7 +12,7 @@
 
 .topLeft,.topRight {
     flex: 20%;
-    background-color: tomato;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +20,7 @@
 
 .topCenter {
     flex: 60%;
+    
 }
 
 .topIcon {

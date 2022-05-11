@@ -6,7 +6,7 @@ export default function Sidebar() {
 			<div className="sidebarItem">
 				<span className="sidebarTitle">ABOUT ME</span>
 				<img
-					src="https://scontent.fyxd2-1.fna.fbcdn.net/v/t39.30808-6/258835570_5216188708398062_574361224942588809_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=AVZU-M4cBJcAX9Ckxal&_nc_oc=AQks2oJPCvQbL0QZRv0KV50URsBobFkcKHgTnUuWZ5ESAuvTxMCVkgL2BEqjdBxw_Yk&_nc_ht=scontent.fyxd2-1.fna&oh=00_AT9LRP3WVlmN6by75LD-Kib5Zsi4VrvROEwq-Hsxtpqd8A&oe=62803DC8"
+					src="https://scontent.fyxd2-1.fna.fbcdn.net/v/t1.6435-9/85071418_3650777908272491_780403423106291081_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=174925&_nc_ohc=cHHjY1J1wvUAX_YsINx&_nc_ht=scontent.fyxd2-1.fna&oh=00_AT9XrH0Ro1OXJECIQxTt5f9pjfZU6aYMYsSvq6GZu5Ye4g&oe=62A097B1"
 					alt="Nathan Drapeza portrait"
 				/>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
