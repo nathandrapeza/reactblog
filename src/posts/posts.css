@@ -1,3 +1,7 @@
 .posts {
     flex: 9;
+    display: flex;
+    flex-wrap: wrap; /* makes it the nice horizontal vertical thing */
+                     /* if children width > parent width, it moves to next row */
+    margin: 20px;
 }
