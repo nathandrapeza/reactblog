@@ -3,7 +3,7 @@ const User = require("../models/User"); // grab user user model
 const Posts = require("../models/Posts")
 const bcrypt = require("bcrypt");
 
-//UPDATE
+// UPDATE
 router.put("/:id", async (req,res)=> {
     if (req.body.userId === req.params.id) { // using the :id from the url
         if(req.body.password) { // if a password is sent, rehash it
@@ -23,9 +23,9 @@ router.put("/:id", async (req,res)=> {
     }
 });
 
-//DELETE
+// DELETE
 // this delete method only verifies using url:id === userId
-// does not use username at all
+// does not use username to verify anything
 router.delete("/:id", async (req,res)=> {
     if (req.body.userId === req.params.id) { // using the :id from the url
         try {
@@ -46,5 +46,18 @@ router.delete("/:id", async (req,res)=> {
     }
 
 });
+
+
+// GET USER
+router.get("/:id", async (req, res) => {
+    try {
+        const user = await User.findById(req.params.id);
+        const {password, ...others} = user._doc;
+        res.status(200).json(others);
+    } catch (err) {
+        console.log(err)
+        res.status(500).json(err)
+    }
+})
 
 module.exports = router;
