@@ -16,7 +16,7 @@ import Post from "./components/post/Post";
 
 function App() {
 
-  const user = true; /* no user logged in */
+  const user = false; /* no user logged in */
 
   return (
     <Router>

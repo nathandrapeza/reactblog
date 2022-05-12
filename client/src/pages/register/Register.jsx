@@ -14,9 +14,11 @@ export default function Register() {
 				<input type="password" className="registerInput" placeholder="Enter your password..."></input>
 				<button className="registerButton">Register</button>
 			</form> 
+			{ /* CAUSES WEIRD LOGIN BUTTON ON HOME PAGE
 			<button className="registerLoginButton">
 				<Link to="/login" className="Link">Login</Link>
 			</button>
+  			*/}
     </div>
   )
 }
