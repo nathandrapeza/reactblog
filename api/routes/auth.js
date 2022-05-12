@@ -2,7 +2,7 @@ const router = require("express").Router();
 const User = require("../models/User"); // grab user user model
 const bcrypt = require("bcrypt");
 
-//REGISTER
+// REGISTER
 router.post("/register", async (req,res)=> {
     try {
 
@@ -20,7 +20,7 @@ router.post("/register", async (req,res)=> {
     }
 })
 
-//LOGIN
+// LOGIN
 router.post("/login", async (req, res) => {
     try {
         const user = await User.findOne({ username: req.body.username });
